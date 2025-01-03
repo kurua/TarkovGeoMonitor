@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarkovGeoMonitor", "TarkovGeoMonitor.csproj", "{377E1DAE-BE04-4455-9354-DD3682389FE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{377E1DAE-BE04-4455-9354-DD3682389FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377E1DAE-BE04-4455-9354-DD3682389FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377E1DAE-BE04-4455-9354-DD3682389FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377E1DAE-BE04-4455-9354-DD3682389FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D3EEF96-8FFE-4E80-803F-B168E02FD5FF}
+	EndGlobalSection
+EndGlobal
