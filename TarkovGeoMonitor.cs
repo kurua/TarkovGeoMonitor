@@ -165,6 +165,9 @@ namespace TarkovGeoMonitor
 
         void SearchEftLogPath()
         {
+
+            label_EFTLogDir.Text = "err.";
+
             try
             {
                 // レジストリキーのパス
@@ -404,13 +407,25 @@ namespace TarkovGeoMonitor
                                     break;
                                 }
                             case "factory4_day":
+                            case "factory4_night":
                                 {
                                     lastData[1] = "Factory";
                                     break;
                                 }
                             case "Sandbox":
+                            case "Sandbox_high":
                                 {
                                     lastData[1] = "Ground zero";
+                                    break;
+                                }
+                            case "TarkovStreets":
+                                {
+                                    lastData[1] = "Streets Of Tarkov";
+                                    break;
+                                }
+                            case "laboratory":
+                                {
+                                    lastData[1] = "The Lab";
                                     break;
                                 }
                             default:
