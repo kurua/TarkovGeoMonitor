@@ -25,4 +25,5 @@
 ## クレジット
 このツールは以下のデータとライブラリを使用しています。
 * IP Data: [IP to Country Lite](https://db-ip.com/db/lite.php) by [DB-IP](https://db-ip.com) (CC BY 4.0)
-* Library: [MaxMind.GeoIP2](https://github.com/maxmind/GeoIP2-dotnet)
+* Library: [MaxMind.GeoIP2](https://github.com/maxmind/GeoIP2-dotnet) (Apache License 2.0)
+* Build Tool: [Costura.Fody](https://github.com/Fody/Costura) (MIT License)
