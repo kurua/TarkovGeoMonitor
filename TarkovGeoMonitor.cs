@@ -216,12 +216,16 @@ namespace TarkovGeoMonitor
         {
             try
             {
-                string[] subFolders = Directory.GetDirectories(eftLogDirPath);
+                if (string.IsNullOrEmpty(eftLogDirPath) || !Directory.Exists(eftLogDirPath)) return;
+
+                var subFolders = Directory.GetDirectories(eftLogDirPath, "log_*")
+                    .OrderByDescending(dir => dir) // 降順ソート
+                    .Take(10);                     // 最新10件のみ
+
                 foreach (string subFolder in subFolders)
                 {
-                    string folderName = Path.GetFileName(subFolder);
                     // 各フォルダのログを特定して解析
-                    if (SearchTargetLog(eftLogDirPath + @"\" + folderName))
+                    if (SearchTargetLog(subFolder))
                     {
                         AnalyzeLogFile(targetAppLogFilePath);
                     }
