@@ -3,6 +3,9 @@
 
 時間帯によって相性の悪いサーバがあったり、パーティプレイ中にリーダーの回線と相性が悪くコネロスした際に、毎回ログファイルを開いて調べるのが面倒だったので自分用に作成していたものです。
 
+![ScreenShot](https://github.com/user-attachments/assets/96b4aea2-88aa-4175-9e49-c044bde87a76)
+![ScreenShot](https://github.com/user-attachments/assets/dfaba4fb-ed41-4879-8af7-8c3cf00dccee)
+
 ## 使い方
 1. **ダウンロード**
    Releases から zipファイルをダウンロードして解凍してください。
@@ -12,7 +15,7 @@
    
    ※ IP判定用のデータファイル（.mmdb）は同梱されています。
 
-##### データの更新について（任意）
+### データの更新について（任意）
 あまり効果は無いと思いますが、最新のデータを使いたい場合は [DB-IP (Lite)](https://db-ip.com/db/lite.php) から `.mmdb` ファイル（`dbip-country-lite-xxxx-xx.mmdb`）をダウンロードし、exeと同じフォルダに上書き保存してください。
 
 ## 注意事項
