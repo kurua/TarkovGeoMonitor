@@ -8,7 +8,7 @@
 
 ## 使い方
 1. **ダウンロード**
-   Releases から zipファイルをダウンロードして解凍してください。
+   [Releases](https://github.com/kurua/TarkovGeoMonitor/releases) から zipファイルをダウンロードして解凍してください。
 
 2. **起動**
    `TarkovGeoMonitor.exe` を実行するだけで、自動的にログを監視します。
